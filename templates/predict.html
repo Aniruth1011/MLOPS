@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ML Model Prediction</title>
+  </head>
+  <body>
+    <h1>ML Model Prediction</h1>
+    <form method="post" action="/predict">
+      <label for="age">Age:</label>
+      <input type="text" id="age" name="age"><br><br>
+      <label for="tenure">Tenure:</label>
+      <input type="text" id="tenure" name="tenure"><br><br>
+      <label for="balance">Balance:</label>
+      <input type="text" id="balance" name="balance"><br><br>
+      <label for="numofproducts">NumOfProducts:</label>
+      <input type="text" id="numofproducts" name="numofproducts"><br><br>
+      <label for="estimatedsalary">EstimatedSalary:</label>
+      <input type="text" id="estimatedsalary" name="estimatedsalary"><br><br>
+      <input type="submit" value="Submit">
+    </form>
+
+    <h2>{{info1}}</h2>
+  </body>
+</html>
